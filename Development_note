@@ -1,0 +1,40 @@
+Development Note:
+*** Oct 14: 
+    int timestamp = 0;
+//    uint64_t timestamp = 0; // when change timestamp to uint64_t -> hang
+*** Oct 13: version "MOD_API_fatfs_lw_sbe_he_adc_12_13Oct2022":
+plan: - add circular buffer
+
+*** Oct 12: version "MOD_API_fatfs_lw_sbe_he_adc_12Oct2022" succeed to:
+- get sbe data
+- get adc
+- has hall effect data
+form a lw string: "$LWGtimestampSbe49dataHalleffectAdc\r\n"
+
+*** Aug 3: adding
+   ls [-l]            - list files
+   rm <file>          - remove file
+   mkdir <dirname>    - create dir
+   cat <file>         - display file
+   mv <old> <new>     - rename file
+   mount              - mount file system
+   umount             - unmount file system
+   wtest              - write test pattern in file test
+
+*** July 27, 2022: maibui -> change the app's name to "MOD_cli_fatfs_mg_mb27July2022"
+
+*** July 26, 2022: maibui -> change app name to ""cli_kernel_micriumos_FatFS_14b_mg_mb26July2022"
+- compile is succeed with SDK 4.0 & GNU ARM 10.3
+- testing
+
+*** July 22, 2022: mikegoldin -> change app name to "cli_kernel_micriumos_FatFS_14b_mg"
+- adding fatfs' main from chan.org
+http://elm-chan.org/fsw/ff/00index_e.html
+http://elm-chan.org/fsw/ff/doc/readdir.html
+
+- edit fatfs' main
+- compile is succeed with SDK 4.0 & GNU ARM 10.2
+
+
+
+ 

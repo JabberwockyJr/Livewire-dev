@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFM32GG11B820F2048GL192" partId="mcu.arm.efm32.gg11.efm32gg11b820f2048gl192" contextId="com.silabs.sdk.stack.super:4.2.1._1552817681">
+  <mode name="DefaultMode">
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="PA9" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_BOARD_ENABLE_DISPLAY%T%sl_board_control_config.h"/>
+    <property object="PA9" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB3" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_BOARD_ENABLE_SENSOR_HALL%T%sl_board_control_config.h"/>
+    <property object="PB3" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PD0" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_BOARD_ENABLE_SENSOR_MICROPHONE%T%sl_board_control_config.h"/>
+    <property object="PD0" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PD1" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_BUTTON_HALL_EFFECT_U%T%sl_simple_button_HALL_EFFECT_U_config.h"/>
+    <property object="PD1" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PD5" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_BUTTON_HALL_EFFECT_V%T%sl_simple_button_HALL_EFFECT_V_config.h"/>
+    <property object="PD5" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PD6" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_BUTTON_HALL_EFFECT_W%T%sl_simple_button_HALL_EFFECT_W_config.h"/>
+    <property object="PD6" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PE1" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_BOARD_ENABLE_VCOM%T%sl_board_control_config.h"/>
+    <property object="PE1" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PE10" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PE7" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_BOARD_ENABLE_MEMORY_SDCARD%T%sl_board_control_config.h"/>
+    <property object="PE7" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PF4" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_CONTROL_PIN_1%T%sl_emlib_gpio_init_control_pin_1_config.h"/>
+    <property object="PG13" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_BOARD_ENABLE_MEMORY_QSPI%T%sl_board_control_config.h"/>
+    <property object="PG13" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PH11" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_LED_LED0%T%sl_simple_led_led0_config.h"/>
+    <property object="PH12" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_LED_LED2%T%sl_simple_led_led2_config.h"/>
+    <property object="PH12" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PH13" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_LED_LED1%T%sl_simple_led_led1_config.h"/>
+    <property object="PH13" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PORTIO" propertyId="portio.uart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.uart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.uart0.location.rx" value="3"/>
+    <property object="PORTIO" propertyId="portio.uart0.location.tx" value="3"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart4.enable.cts" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart4.enable.rts" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart4.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart4.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart4.location.cts" value="4"/>
+    <property object="PORTIO" propertyId="portio.usart4.location.rts" value="4"/>
+    <property object="PORTIO" propertyId="portio.usart4.location.rx" value="4"/>
+    <property object="PORTIO" propertyId="portio.usart4.location.tx" value="4"/>
+    <property object="UART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="USART0" propertyId="ABModule.selectedRequirement" value="usart%T%SL_IOSTREAM_USART_SBE49%T%sl_iostream_usart_sbe49_config.h"/>
+    <property object="USART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="USART4" propertyId="ABModule.selectedRequirement" value="usart%T%SL_IOSTREAM_USART_VCOM%T%sl_iostream_usart_vcom_config.h"/>
+    <property object="USART4" propertyId="ABPeripheral.included" value="true"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
